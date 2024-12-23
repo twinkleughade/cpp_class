@@ -1,28 +1,3 @@
-// # include <iostream>
-// using namespace std;
-// class student
-// {
-//     public:int r;
-//     public:student(int rno)
-//     {
-//         r=rno;
-//     }
-//     void show()
-//     {
-//         cout<<"Rno="<<r;
-//     }
-// };
-// int main()
-// {
-//     student s1(101);
-//     s1.show();
-//     student s2(s1);
-//     s2.show();
-// }
-
-
-
-// other example
 # include <iostream>
 using namespace std;
 # include <string.h>
@@ -33,6 +8,11 @@ class student
     {
         c=new char[20];
         strcpy(c,s);
+    }
+    student (student &obj)
+    {
+        c=new char[20];
+        strcpy(c,obj.c);
     }
     void show()
     {
