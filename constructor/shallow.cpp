@@ -29,7 +29,7 @@ using namespace std;
 class student
 {
     char *c;
-    public:student(char*s)
+    public:student(char *s)
     {
         c=new char[20];
         strcpy(c,s);
@@ -50,7 +50,7 @@ int main()
     student s2(s1);  //calling shallow copy
     student s2=s1;  //implicit assignment copy constructor 
     s2.show();
-    s2.surname("verma");
+    // s2.surname("verma");
     s1.show();
     s2.show();
 }
