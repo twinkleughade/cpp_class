@@ -1,0 +1,9 @@
+there are 5 types of Inheritance
+1. single  -  if both class name same it take child class, - drawback
+              it work on child obj, we made less objject, - advantage
+              first parent than childe memory in constructor
+              first child than parent memory delete in destuctor
+2. multi level
+3. multiple
+4. hierarchical
+5. hybrid

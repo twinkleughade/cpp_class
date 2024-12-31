@@ -7,7 +7,7 @@ class bhopal
     {
         mile=m;
     }
-    operator +=(bhopal & obj)
+    operator +(bhopal & obj)
     {
         mile=mile+obj.mile;
         cout << "Total k.m.="<<mile;
